@@ -1,0 +1,16 @@
+echo "=============Buld_Started================="
+pwd
+ifconfig
+hostname
+cat <<EOF > /var/www/html/index.nginx-debian.html
+<html>
+<head>
+<title>Cool</title>
+</head>
+<body bgcolor=black>
+<H1 ALIGN=CENTER>Anechka!</H1>
+<P ALIGN=CENTER> <i style="font-size: 50px; color: Orange">  Privet zaika</i> </P>
+</body>
+</html>
+EOF
+echo "============Build_Finished==================="
